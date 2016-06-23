@@ -1,3 +1,14 @@
+.no-margin{
+  margin: 0px;
+}
+
+.no-padding{
+  padding: 0px;
+}
+
+.dpdown li a{
+  color:#fff;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -84,7 +95,7 @@ img { max-width: 100%; }
 .top-content .description a {
 	color: #fff;
 }
-.top-content .description a:hover, 
+.top-content .description a:hover,
 .top-content .description a:focus { border-bottom: 1px dotted #fff; }
 
 .top-content .top-big-link {
@@ -148,14 +159,14 @@ img { max-width: 100%; }
 @media (min-width: 768px) and (max-width: 991px) {}
 
 @media (max-width: 767px) {
-	
+
 	.top-content .top-big-link { margin-top: 25px; }
 	.top-content .top-big-link a.btn { margin-top: 10px; }
 
 }
 
 @media (max-width: 415px) {
-	
+
 	h1, h2 { font-size: 32px; }
 
 }
@@ -170,10 +181,10 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-	
+
 	/* logo */
     .top-content .logo {
     	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 181px 43px !important;
     }
-	
+
 }
