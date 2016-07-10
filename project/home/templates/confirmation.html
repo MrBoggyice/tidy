@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+  {% block header %}
+    {% block navbar %}
+            <!--Navigation starts here-->
+
+             <nav class="navbar navbar-default navbar-inverse no-margin no-padding" role="navigation">
+                 <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#bs-fortuneiyke-navbar-collapse-1"
+                        aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+               </button>
+                         <a href="/" class="navbar-brand" id="my_logo">Tidy</a>
+                     </div>
+
+                     <div class="collapse navbar-collapse navbar-right" id="bs-fortuneiyke-navbar-collapse-1">
+                         <ul class="nav navbar-nav">
+                             <li>
+                               <a href="#">
+                                 Welcome
+                               </a>
+                             </li>
+                             <li class="dropdown">
+                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                 aria-haspopup="true" aria-expanded="false">
+                                 <span class="glyphicon glyphicon-user"></span>User<span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu navbar-inverse dpdown">
+                                <li><a href="#">Logout</a></li>
+                              </ul>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </nav>
+
+        <!--Navigation ends here-->
+    {% endblock %}
+  {% endblock %}
+  {% block content %}
+    <div class="container">
+      <p>Please check your email for a confirmation link.</p>
+      <p>Didn't get any email? Just click  <a href="#">Resend</a></p>
+    </div>
+  {% endblock %}
