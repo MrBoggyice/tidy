@@ -21,6 +21,6 @@ def index():
     return render_template('index.html')
 
 
-@home_blueprint.route('/confirmation')
-def confirmation():
-    return render_template('confirmation.html')
+# @home_blueprint.route('/confirmation')
+# def confirmation():
+#     return render_template('confirmation.html')
