@@ -16,7 +16,7 @@ body {
     font-weight: 300;
     color: #888;
     line-height: 30px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 strong { font-weight: 500; }
@@ -67,6 +67,7 @@ img { max-width: 100%; }
 
 .inner-bg {
     padding: 120px 0;
+    text-align: center;
 }
 
 .top-content .text {
@@ -187,4 +188,9 @@ only screen and (                min-resolution: 2dppx) {
     	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 181px 43px !important;
     }
 
+}
+
+/* footer style */
+.push {
+    text-align: center;
 }
